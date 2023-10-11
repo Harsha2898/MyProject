@@ -22,6 +22,10 @@ public class Main {
         customer1.setName("XYZ");
         customer1.setAddress("US");
 
+        Customer customer2=new Customer();
+        customer2.setName("XYZ");
+        customer2.setAddress("US");
+
         Account account1=new Account();
         account1.setCustomer(customer1);
         account1.setNumber(526253256);
