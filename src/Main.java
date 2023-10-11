@@ -26,9 +26,9 @@ public class Main {
         customer2.setName("XYZ");
         customer2.setAddress("US");
 
-        Customer customer3=new Customer();
-        customer3.setName("XYZ");
-        customer3.setAddress("US");
+        Customer customer4=new Customer();
+        customer4.setName("XYZ");
+        customer4.setAddress("US");
 
         Account account1=new Account();
         account1.setCustomer(customer1);
