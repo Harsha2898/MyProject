@@ -35,6 +35,11 @@ public class Main {
         account1.setNumber(526253256);
         account1.setBalance(5000);
 
+        Account account2=new Account();
+        account2.setCustomer(customer1);
+        account2.setNumber(526253256);
+        account2.setBalance(5000);
+
         Bank bank=new Bank();
         bank.setName("SBI");
         bank.setBranch("HYDERABAD");
